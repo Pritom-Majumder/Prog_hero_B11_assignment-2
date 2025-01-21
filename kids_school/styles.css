@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared styles */
+
+.display-flex{
+ display: flex;
+}
+
+.orange{
+    color: rgba(254, 163, 1, 1);
+}
+
+.sky-blue{
+    color: rgba(1, 172, 253, 1);
+}
+
+/* header styles */
+/* header{
+    margin: 0 auto;
+    width: 1160px;
+} */
+
+/* navbar styles */
+
+.navbar{
+    margin: 0 auto;
+    max-width: 1440px;
+    justify-content: space-evenly;
+}
+.navbar>.brand{
+    /* margin-right:1046px; */
+}
+
+.nav-img{
+    /* margin-left: 125px; */
+    gap: 11px;
+}
+
+.nav-item{
+   list-style: none;
+   margin-right: 32px; 
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size:20px;
+}
+
+.light-blue{
+    color: rgba(5, 212, 223, 1);
+}
+
+.dark-blue{
+    color: rgba(93, 88, 239, 1);
+}
+
+.btn-secondary{
+    width: 96px;
+    height: 50px;
+    padding: 10px;
+    background-color: rgba(254, 163, 1, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 16px;
+}
