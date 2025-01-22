@@ -6,11 +6,12 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  margin: 0;
 }
 
 main{
-    max-width: 1440px;
-    margin: 0 auto;
+    /* max-width: 1440px; */
+    margin:0;
 }
 
 /* shared styles */
@@ -56,9 +57,11 @@ main{
     padding:0 30px 20px 45px;
 }
 
-/* .stories-img-1-title{
-    font-size: 20px;
-} */
+.stand1-font{
+    font-size:15px ;
+    font-weight: bold;
+}
+
 
 /* header styles */
 
@@ -146,9 +149,6 @@ main{
     font-size: 20px;
     font-weight: 400;
 }
-
-/* Main Styles */
-
 
 
 /* Curriculum Styles */
@@ -323,6 +323,10 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     top: -30px;
 }
 
+.btn-stories-diff-color{
+    background-color:rgba(93, 88, 240, 1) ;
+}
+
 .stories-img-1-title-font{
     font-size: 20px;
     font-weight: bold;
@@ -340,32 +344,88 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 }
 
 .stories> .btn-primary{
-    /* text-align: center; */
-    /* margin-top:10px ; */
-    /* padding-left: 200px; */
-    margin-left: 620px;
+    margin-left: 730px;
+
+}
+
+
+/* footer styles */
+footer{
+  width:100%;
+  height: 530px;
+  background-color:rgba(1, 172, 253, 1) ;
+}
+
+.education-img-title>img{
+    width:80px;
+     height:85px;
+     margin-top: 25px;
+}
+
+.education-title{
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.education-discri{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.about-title,.keep-title{
+    padding-left:40px ;
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color:rgba(255, 255, 255, 1) ;
+}
+
+.about-list{
+    list-style: none;
+    padding-top: 35px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.about-container{
+   /* padding-top: 120px; */
+}
+
+.footer-container{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   width: 1070px;
+   height: 210px;
+   margin: 0 auto;
+   padding-top: 120px;
+   align-items: center;
+   gap: 170px;
+   align-items: stretch;
+   /* justify-content:space-between; */
+}
+
+footer>div{
+    align-items: center;
+}
+
+.keep-title{
+    margin-bottom:35px ;
+}
+
+.keep-img{
+    margin-left: 40px;
 }
 
 
 /* Responsive media */
 
-/* .toggle-btn{
-    color: black;
-    font-size: 1.5rem;
-    cursor: pointer;
-    display: none;
-    } */
-
-@media screen and (max-width:576px) {
-    /* .toggle-btn{
-        display: block;
-        padding-right: 10px;
-      } */
-     .brand{
-        display: none;
-     }
-     /* .navbar{
-        hr
-     } */
-}
 
