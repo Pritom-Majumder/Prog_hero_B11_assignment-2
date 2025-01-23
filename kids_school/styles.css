@@ -428,4 +428,29 @@ footer>div{
 
 /* Responsive media */
 
+.ft,.hori{
+    display: none;
+}
+
+@media  screen and (max-width:576px) {
+    .brand,.btn-secondary,.nav-links{
+        display: none;
+    }
+    
+    .navbar {
+        justify-content: space-between;
+        padding: 12px 16px;
+    }
+
+    .ft{
+        font-size: 30px;
+        display: inline-block;
+    }
+    .hori{
+        display: block;
+        /* background-color:rgba(254, 163, 1, 1) ; */
+    }
+}
+
+
 
