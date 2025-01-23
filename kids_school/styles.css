@@ -433,6 +433,8 @@ footer>div{
 }
 
 @media  screen and (max-width:576px) {
+
+    /* NabBar */
     .brand,.btn-secondary,.nav-links{
         display: none;
     }
@@ -448,8 +450,17 @@ footer>div{
     }
     .hori{
         display: block;
-        /* background-color:rgba(254, 163, 1, 1) ; */
     }
+
+    /* Banner */
+   .banner{
+    flex-direction: column-reverse;
+    margin: 8px 16px;
+   }
+
+   .banner_content{
+    text-align: center;
+   }
 }
 
 
